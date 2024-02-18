@@ -1,5 +1,6 @@
 "use clinet"
 import React, { useState } from "react";
+import Logo from "../../public/logo.png"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -11,12 +12,12 @@ const Navbar = () => {
           <div className="w-60 max-w-full px-4">
             <a href="/#" className="block w-full py-5">
               <img
-                src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-primary.svg"
+                src="Logo"
                 alt="logo"
                 className="dark:hidden"
               />
               <img
-                src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
+                src="Logo"
                 alt="logo"
                 className="hidden dark:block"
               />
@@ -43,10 +44,10 @@ const Navbar = () => {
                 } `}
               >
                 <ul className="block lg:flex">
-                  <ListItem NavLink="/#">Home</ListItem>
-                  <ListItem NavLink="/#">Payment</ListItem>
-                  <ListItem NavLink="/#">About</ListItem>
-                  <ListItem NavLink="/#">Blog</ListItem>
+                  <ListItem NavLink="/#">Male</ListItem>
+                  <ListItem NavLink="/#">Female</ListItem>
+                  <ListItem NavLink="/#">Kids</ListItem>
+                  <ListItem NavLink="/#">All Products</ListItem>
                 </ul>
               </nav>
             </div>

@@ -1,16 +1,22 @@
+"use client"
 import Image from "next/image";
-import layout from "@/app/layout"
+import Header from "@/components/header"
+import Footer from "@/components/footer"
+import Blog from "@/components/blogs"
+import Promo from "@/components/promo"
+import React from "react";
+
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-     <div>
+    <main>    
+<Header/>
+<Promo/>
     
-      Hello world
-    
-     </div>
+     <Blog/>
      
-
+<Footer/>
     </main>
   );
 }
