@@ -6,6 +6,7 @@ import React from 'react'
 const Female = () => {
   return (
     <div>
+      <div className="bg-gray-100">
     <div className="flex justify-around">
         <Image
         src={female2}
@@ -64,7 +65,7 @@ const Female = () => {
         </b>
 
         </div>
-        
+        </div>
       
     </div>
   )

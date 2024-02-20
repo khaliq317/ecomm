@@ -1,5 +1,3 @@
-
-import { Bold } from "lucide-react"
 import image1 from "../../../public/male1.jpg"
 import image2 from "../../../public/male2.png"
 import Image from "next/image"
@@ -8,7 +6,8 @@ import React from 'react'
 const male = () => {
   return (
     <main>
-      <div className="flex justify-around">
+      <div className="bg-gray-100">
+      <div className="flex justify-evenly">
         
         <Image
         src={image1}
@@ -25,7 +24,7 @@ const male = () => {
 
         </div>
         
-<div className="flex justify-around">
+<div className="flex justify-evenly">
         <b>
           Flex Push Button Boomber
         </b>
@@ -35,7 +34,7 @@ const male = () => {
           </b>
           </div>
 
-          <div className="flex justify-around">
+          <div className="flex justify-evenly">
             <p>
             Jacket
             </p>
@@ -43,7 +42,7 @@ const male = () => {
             SweatShirt
            </p>
           </div>
-          <div className="flex justify-around">
+          <div className="flex justify-evenly">
           <b>
             $200
           </b>
@@ -52,7 +51,7 @@ const male = () => {
           </b>
         </div>
       
-        
+        </div>
         </main>
     
   )

@@ -5,7 +5,8 @@ import React from 'react'
 const Kids = () => {
   return (
     <div>
-      <div className="flex justify-around">
+      <div className="bg-gray-100">
+      <div className="flex justify-evenly">
 <Image
 src={kid}
 height={300}
@@ -21,7 +22,7 @@ alt=""
 
 </div>
 
-<div className="flex justify-around">
+<div className="flex justify-evenly">
 <b>
   Kids 1
 </b>
@@ -30,7 +31,7 @@ alt=""
 </b>
 </div>
 
-<div className="flex justify-around">
+<div className="flex justify-evenly">
 <p>
   Kids toys
 </p>
@@ -39,7 +40,7 @@ alt=""
 </p>
 </div>
 
-<div className="flex justify-around">
+<div className="flex justify-evenly">
 <b>
   $50
 </b>
@@ -47,6 +48,7 @@ alt=""
   $50
 </b>
 
+</div>
 </div>
 
     </div>
