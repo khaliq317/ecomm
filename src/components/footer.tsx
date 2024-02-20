@@ -1,4 +1,6 @@
 import React from "react";
+import Logo from "../../public/logo.png"
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -9,11 +11,12 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
               <div className="mb-10 w-full">
                 <a href="/#" className="mb-6 inline-block max-w-[160px]">
-                  <img
-                    src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo.svg"
-                    alt="logo"
-                    className="max-w-full dark:hidden"
-                  />
+                  <Image
+                  src={Logo}
+                  height={130}
+                  width={130}
+                  alt=""
+                  ></Image>
                   <img
                     src="https://cdn.tailgrids.com/2.0/image/assets/images/logo/logo-white.svg"
                     alt="logo"
@@ -138,7 +141,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <p className="text-base text-body-color dark:text-dark-6">
-                  &copy; 2025 TailGrids
+                  &copy; 2025 DineMarket
                 </p>
               </div>
             </div>
