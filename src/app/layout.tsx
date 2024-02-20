@@ -3,7 +3,8 @@ import React from "react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/header"
+import Nav from "@/components/Nav"
+import Link from "next/link";
 
 
 
@@ -22,8 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-
-        <header/>
+        
+    <header>
+      
+    </header>
+  
         
         {children}
         

@@ -1,6 +1,8 @@
 "use clinet"
 import React, { useState } from "react";
 import Logo from "../../public/logo.png"
+import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -11,16 +13,20 @@ const Navbar = () => {
         <div className="relative -mx-4 flex items-center justify-between">
           <div className="w-60 max-w-full px-4">
             <a href="/#" className="block w-full py-5">
-              <img
-                src="Logo"
+              <Image
+                src={Logo}
                 alt="logo"
+                width={100}
+                height={100}
                 className="dark:hidden"
-              />
-              <img
-                src="Logo"
+              ></Image>
+              <Image
+                src={Logo}
                 alt="logo"
+                width={100}
+                height={100}
                 className="hidden dark:block"
-              />
+              ></Image>
             </a>
           </div>
           <div className="flex w-full items-center justify-between px-4">
@@ -44,10 +50,10 @@ const Navbar = () => {
                 } `}
               >
                 <ul className="block lg:flex">
-                  <ListItem NavLink="/#">Male</ListItem>
-                  <ListItem NavLink="/#">Female</ListItem>
-                  <ListItem NavLink="/#">Kids</ListItem>
-                  <ListItem NavLink="/#">All Products</ListItem>
+                 <ListItem NavLink="/#"><Link href={"/male"}>Male</Link></ListItem>
+                  <ListItem NavLink="/#"><Link href={"/female"}>Female</Link></ListItem>
+                  <ListItem NavLink="/#"><Link href={"/kids"}>Kids</Link></ListItem>
+                  <ListItem NavLink="/#"><Link href={"/allProducts"}>All Products</Link></ListItem>
                 </ul>
               </nav>
             </div>

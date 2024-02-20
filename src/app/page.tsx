@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import Header from "@/components/header"
+import Header from "@/components/Nav"
 import Footer from "@/components/footer"
 import Blog from "@/components/blogs"
 import Promo from "@/components/promo"
