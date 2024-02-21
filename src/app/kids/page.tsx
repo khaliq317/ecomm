@@ -5,7 +5,7 @@ import React from 'react'
 const Kids = () => {
   return (
     <div>
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 pt-4">
       <div className="flex justify-evenly">
 <Image
 src={kid}

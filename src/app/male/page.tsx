@@ -7,14 +7,15 @@ const male = () => {
   return (
     <main>
       <div className="bg-gray-100">
-      <div className="flex justify-evenly">
+      <div className="flex justify-evenly pt-4 px-32">
         
-        <Image
+        <Image 
         src={image1}
         width={250}
         height={250}
         alt={"$50"}
         ></Image>
+        
         <Image
         src={image2}
         width={250}

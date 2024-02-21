@@ -10,7 +10,7 @@ import React from 'react'
 const AllProducts = () => {
   return (
     <div>
-      <div className="bg-gray-200">
+      <div className="bg-gray-200 pt-4 rounded-2xl">
         <div className="flex justify-evenly">
         <Image
         src={pic1}
@@ -46,6 +46,7 @@ const AllProducts = () => {
         </b>
 
         </div>
+        
 
         <div className="flex justify-evenly">
         <p>
@@ -60,7 +61,7 @@ const AllProducts = () => {
       
         </div>
 
-        <div className="flex justify-around">
+        <div className="flex justify-evenly">
         <b>
           $150
         </b>
@@ -73,7 +74,7 @@ const AllProducts = () => {
         
         </div>
         
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly pt-4">
           <Image
           src={pic4}
           height={250}

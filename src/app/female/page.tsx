@@ -6,7 +6,7 @@ import React from 'react'
 const Female = () => {
   return (
     <div>
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 pt-4">
     <div className="flex justify-around">
         <Image
         src={female2}
